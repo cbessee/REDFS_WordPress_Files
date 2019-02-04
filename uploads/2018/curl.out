@@ -1,0 +1,57 @@
+== Info:   Trying 204.227.26.75...
+== Info: TCP_NODELAY set
+== Info: Connected to www.critigen.net (204.227.26.75) port 80 (#0)
+=> Send header, 80 bytes (0x50)
+0000: 47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a GET / HTTP/1.1..
+0010: 48 6f 73 74 3a 20 77 77 77 2e 63 72 69 74 69 67 Host: www.critig
+0020: 65 6e 2e 6e 65 74 0d 0a 55 73 65 72 2d 41 67 65 en.net..User-Age
+0030: 6e 74 3a 20 63 75 72 6c 2f 37 2e 35 34 2e 30 0d nt: curl/7.54.0.
+0040: 0a 41 63 63 65 70 74 3a 20 2a 2f 2a 0d 0a 0d 0a .Accept: */*....
+<= Recv header, 32 bytes (0x20)
+0000: 48 54 54 50 2f 31 2e 31 20 33 30 31 20 4d 6f 76 HTTP/1.1 301 Mov
+0010: 65 64 20 50 65 72 6d 61 6e 65 6e 74 6c 79 0d 0a ed Permanently..
+<= Recv header, 37 bytes (0x25)
+0000: 44 61 74 65 3a 20 46 72 69 2c 20 32 32 20 4a 75 Date: Fri, 22 Ju
+0010: 6e 20 32 30 31 38 20 32 30 3a 33 39 3a 31 31 20 n 2018 20:39:11 
+0020: 47 4d 54 0d 0a                                  GMT..
+<= Recv header, 32 bytes (0x20)
+0000: 53 65 72 76 65 72 3a 20 41 70 61 63 68 65 2f 32 Server: Apache/2
+0010: 2e 32 2e 31 35 20 28 43 65 6e 74 4f 53 29 0d 0a .2.15 (CentOS)..
+<= Recv header, 36 bytes (0x24)
+0000: 4c 6f 63 61 74 69 6f 6e 3a 20 68 74 74 70 3a 2f Location: http:/
+0010: 2f 77 77 77 2e 63 72 69 74 69 67 65 6e 2e 63 6f /www.critigen.co
+0020: 6d 2f 0d 0a                                     m/..
+<= Recv header, 21 bytes (0x15)
+0000: 43 6f 6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a 20 Content-Length: 
+0010: 33 31 34 0d 0a                                  314..
+<= Recv header, 19 bytes (0x13)
+0000: 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 63 6c 6f 73 Connection: clos
+0010: 65 0d 0a                                        e..
+<= Recv header, 45 bytes (0x2d)
+0000: 43 6f 6e 74 65 6e 74 2d 54 79 70 65 3a 20 74 65 Content-Type: te
+0010: 78 74 2f 68 74 6d 6c 3b 20 63 68 61 72 73 65 74 xt/html; charset
+0020: 3d 69 73 6f 2d 38 38 35 39 2d 31 0d 0a          =iso-8859-1..
+<= Recv header, 2 bytes (0x2)
+0000: 0d 0a                                           ..
+<= Recv data, 314 bytes (0x13a)
+0000: 3c 21 44 4f 43 54 59 50 45 20 48 54 4d 4c 20 50 <!DOCTYPE HTML P
+0010: 55 42 4c 49 43 20 22 2d 2f 2f 49 45 54 46 2f 2f UBLIC "-//IETF//
+0020: 44 54 44 20 48 54 4d 4c 20 32 2e 30 2f 2f 45 4e DTD HTML 2.0//EN
+0030: 22 3e 0a 3c 68 74 6d 6c 3e 3c 68 65 61 64 3e 0a ">.<html><head>.
+0040: 3c 74 69 74 6c 65 3e 33 30 31 20 4d 6f 76 65 64 <title>301 Moved
+0050: 20 50 65 72 6d 61 6e 65 6e 74 6c 79 3c 2f 74 69  Permanently</ti
+0060: 74 6c 65 3e 0a 3c 2f 68 65 61 64 3e 3c 62 6f 64 tle>.</head><bod
+0070: 79 3e 0a 3c 68 31 3e 4d 6f 76 65 64 20 50 65 72 y>.<h1>Moved Per
+0080: 6d 61 6e 65 6e 74 6c 79 3c 2f 68 31 3e 0a 3c 70 manently</h1>.<p
+0090: 3e 54 68 65 20 64 6f 63 75 6d 65 6e 74 20 68 61 >The document ha
+00a0: 73 20 6d 6f 76 65 64 20 3c 61 20 68 72 65 66 3d s moved <a href=
+00b0: 22 68 74 74 70 3a 2f 2f 77 77 77 2e 63 72 69 74 "http://www.crit
+00c0: 69 67 65 6e 2e 63 6f 6d 2f 22 3e 68 65 72 65 3c igen.com/">here<
+00d0: 2f 61 3e 2e 3c 2f 70 3e 0a 3c 68 72 3e 0a 3c 61 /a>.</p>.<hr>.<a
+00e0: 64 64 72 65 73 73 3e 41 70 61 63 68 65 2f 32 2e ddress>Apache/2.
+00f0: 32 2e 31 35 20 28 43 65 6e 74 4f 53 29 20 53 65 2.15 (CentOS) Se
+0100: 72 76 65 72 20 61 74 20 77 77 77 2e 63 72 69 74 rver at www.crit
+0110: 69 67 65 6e 2e 6e 65 74 20 50 6f 72 74 20 38 30 igen.net Port 80
+0120: 3c 2f 61 64 64 72 65 73 73 3e 0a 3c 2f 62 6f 64 </address>.</bod
+0130: 79 3e 3c 2f 68 74 6d 6c 3e 0a                   y></html>.
+== Info: Closing connection 0
